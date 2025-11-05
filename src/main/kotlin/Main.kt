@@ -48,4 +48,6 @@ fun main() {
     val xPred2 = (yPred2 - b) / m
     println("Resultado: x = $xPred2")
 
+    println("-------------------------------------")
+    println("Y=$b+$m X")
 }
