@@ -18,6 +18,10 @@ dependencies {
     // 2. Módulo de Kotlin para soportar Data Classes (PuntoDeDato)
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2")
 
+    // Dependencia XChart
+    implementation("org.knowm.xchart:xchart:3.8.5")
+
+
 }
 
 tasks.test {
