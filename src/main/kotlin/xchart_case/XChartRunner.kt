@@ -41,7 +41,7 @@ fun runXChart() {
     val series = chart.addSeries("Datos", x, y)
     series.marker = SeriesMarkers.CIRCLE
     // Quitar lineas: 
-    //series.lineStyle = org.knowm.xchart.style.lines.SeriesLines.NONE
+    series.lineStyle = org.knowm.xchart.style.lines.SeriesLines.NONE
 
     // Mostrar el gráfico en pantalla
     SwingWrapper(chart).displayChart()

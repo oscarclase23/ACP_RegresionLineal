@@ -21,6 +21,8 @@ dependencies {
     // Dependencia XChart
     implementation("org.knowm.xchart:xchart:3.8.5")
 
+    // Driver JDBC de MariaDB
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.1.4")
 
 }
 
